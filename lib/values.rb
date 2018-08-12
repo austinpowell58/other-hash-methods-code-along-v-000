@@ -12,5 +12,4 @@ def get_the_values(groceries)
   values = groceries.values.flatten
   sorted_values = values.sort()
   sorted_values
-  return sorted_values[0]
 end
