@@ -9,5 +9,7 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.values.flatten
+  values = groceries.values.flatten
+  sorted_values = values.sort
+  sorted_values[0]
 end
